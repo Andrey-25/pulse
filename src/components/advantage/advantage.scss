@@ -1,0 +1,46 @@
+@import '../../style/variables.scss';
+
+.advantage {
+    padding: 70px 0 65px 0;
+    min-height: 473px;
+    background: rgb(246, 246, 246);
+    &__header {
+            color: rgb(13, 13, 13);
+            font-size: 30px;
+            font-weight: 700;
+            text-align: center;
+    }
+    &__list {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-around;
+    }
+    &__wrapper {
+        max-width: 253px;
+    }
+    &__img {
+        width: 68px;
+        height: 68px;
+        display: block;
+        margin: 0 auto;
+    }
+    &__subheader {
+        margin-top: 30px;
+        color: rgb(13, 13, 13);
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 21px;
+        color: rgb(13, 13, 13);
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        span {
+            font-weight: 500;
+            color: $red;
+            font-size: 14px;
+        }
+    }
+}
