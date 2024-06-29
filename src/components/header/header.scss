@@ -23,6 +23,7 @@
     }
     &__icons {
         margin-top: 60px;
+        color: white;
         width: 424px;
         display: flex;
         justify-content: space-around;
@@ -85,5 +86,52 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        padding-right: 20px;
+        &__logo {
+            img {
+                width: 85%;
+            }
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 38px;
+        }
+        &__subheader {
+            font-size: 22px;
+        }
+        &__wrapper {
+            padding-right: 20px;
+        }
+    }
+
+
+    .button_main {
+        width: 260px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        padding-right: 20px;
+        padding-left: 20px;
+        &__oficial {
+            display: none;
+        }
+    }
+
+    .promo {
+        &__header {
+            font-size: 36px;
+        }
+        &__wrapper {
+            align-items: center;
+        }
     }
 }
